@@ -60,7 +60,6 @@ pip install -r requirements.txt
 Create a `.env` file in the root directory and add:
 ```env
 HF_TOKEN=your_huggingface_api_key
-NIH_API_KEY=your_nih_api_key
 ```
 
 ### 4. Prepare Vector Stores
