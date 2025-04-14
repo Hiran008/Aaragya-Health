@@ -1,0 +1,47 @@
+/* Fixed header: always at the top of the page */
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+    z-index: 100;
+}
+
+/* Chat box styling: positioned below the header */
+.chat-box {
+    margin-top: 80px;  /* leave space for the fixed header */
+    height: calc(100vh - 140px); /* full viewport height minus header and input area */
+    overflow-y: auto;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+/* Chat message styling */
+.message {
+    margin-bottom: 10px;
+    padding: 8px;
+    border-radius: 5px;
+}
+.user {
+    background-color: #dcf8c6;
+    text-align: right;
+}
+.assistant {
+    background-color: #f1f0f0;
+    text-align: left;
+}
+
+/* Input container fixed at bottom */
+.input-container {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 20px;
+    background: #fff;
+    border-top: 1px solid #ddd;
+    z-index: 100;
+}
